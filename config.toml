@@ -1,0 +1,67 @@
+baseurl = "http://www.example.com"
+title = "Anežka Müller"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Anežka Müller"
+  info = "Communities, Events, and Projects"
+  description = "Anežka's personal website"
+  keywords = "infosite,personal"
+  avatarurl = "static/images/anezka.jpg"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/anezkamll"
+[[params.social]]
+  name = "Mastodon"
+  icon = "fa fa-mastodon fa-2x"
+  weight = 2
+  url = "https://mastodon.social/@anezkamll"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/anezkamll/"
+
+# Menu links
+[[menu.main]]
+  name = "My Work"
+  weight = 1
+  url  = "my_work/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
